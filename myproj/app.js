@@ -6,9 +6,9 @@ const app=express();
 app.use(express.static('public'));
 //app.use('/static', express.static('public'))
 //app.use('/static', express.static(path.join(__dirname, 'public')))
-app.get('/message',function(request,response){
-    response.send('hello world');
-});
+// app.get('/riddle.html',function(request,response){
+//     response.send('hello world');
+// });
 const port=4000;
 app.listen(port,function(){
     console.log(`the express server is listening :http://localhost:${port}`);

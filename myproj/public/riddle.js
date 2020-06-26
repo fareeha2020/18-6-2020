@@ -32,7 +32,7 @@ function clickEventHandling(event) {
     changeElementVisibility(parent, ".riddle-question", 'none');
     changeElementVisibility(parent, ".riddle-hover", 'none');
     changeElementVisibility(parent, ".riddle-answer", 'inline');
-    }
+       }
 }
 
 function getRiddleElementId(event) {
